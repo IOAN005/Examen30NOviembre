@@ -1,2 +1,11 @@
-package com.corenetworks.presentacion;public class ProbarDado {
+package com.corenetworks.presentacion;
+
+import com.corenetworks.modelo.Dado;
+
+public class ProbarDado {
+    public static void main(String[] args) {
+        Dado d1=new Dado();
+        d1.lanzarDado();
+
+    }
 }
